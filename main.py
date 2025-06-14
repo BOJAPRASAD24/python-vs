@@ -19,7 +19,22 @@ name= "Boja"
 age = "25"
 
 # print("Hi my name is " + name + " and I am " + age + " years old.")
-print(f"Hi my name is {name} and I am {age}years old.")
+#print(f"Hi my name is {name} and I am {age}year old.")
+print("Hi my name is {} and I am {} years old.".format(name, age))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
