@@ -101,6 +101,36 @@ while counter < max:
     print(counter)
     counter +=1
     
+correct_pin = "1234"
+balance = 5000
+
+pin = input("Enter your pin: ") 
+
+print("1. Check Balance")
+print("2. Withdraw Money")
+print("3. Deposit Money")
+
+option = int(input("Enter (1, 2, 3): "))
+if option == 1:
+    print("your current balance is 5000: ")
+elif option == 2:
+    amount = int(input("Enter amount to withdraw: "))
+    print("Withdraw amount = 2000: ")
+elif option == 3:
+    amount = int(input("Enter amount to deposit: "))
+    print("deposit money 5000: ")
+else:
+    print("Invalid option.")
+
+for _ in range(3):
+    print("withdraw amount")
+
+
+
+
+    
+
+
 
 
 
