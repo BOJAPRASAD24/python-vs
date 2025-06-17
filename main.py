@@ -125,6 +125,70 @@ else:
 for _ in range(3):
     print("withdraw amount")
 
+# def rectangle(n):
+#     return n * n
+# def print_rectangle(n):
+#     result = rectangle(n)
+#     print(f"rectangle of {n} is {result}")
+# num = int(input("Enter a number: ")) 
+#     print_rectangle(num) 
+
+# def ctof(c):
+#     return (c * 9/5) + 32
+# print(ctof(41))
+# print(ctof(52))
+
+# def welcome(func):
+#     def wrapper():
+#         print("Welcome!")
+#         func()
+#         print("Thanks for visiting.")
+#     return wrapper
+
+# @welcome
+# def say_hi():
+#     print("Hi")
+# say_hi()
+try:
+    age = int(input("Enter your age: "))
+    result = 25/age
+    print(result)
+except ValueError:
+    print("invalid input! please enter a number.")
+except value:
+    print(age)
+try:
+    x = 5
+    y = "9"
+    print(x + y)
+except TypeError:
+    print("unsupported operand type(s) for +.")
+except type:
+    print(x + int(y))
+try:
+    num = int(input("Enter a number: "))
+    result = 10/num
+    print(result)
+except ZeroDivisionError:
+    print("you cannot divide a number by 0.")
+except Exception as e:
+    print(e)
+try:
+    colors = ["black", "red", "green"]
+    print(colour[3])
+except IndexError:
+    print("list index out of range")
+except index:
+    print(colour[2])
+finally:
+    print("END")
+
+
+
+
+
+
+
 
 
 
