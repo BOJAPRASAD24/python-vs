@@ -155,7 +155,7 @@ try:
     print(result)
 except ValueError:
     print("invalid input! please enter a number.")
-except value:
+except Exception:
     print(age)
 try:
     x = 5
@@ -175,13 +175,35 @@ except Exception as e:
     print(e)
 try:
     colors = ["black", "red", "green"]
-    print(colour[3])
+    print([3])
 except IndexError:
     print("list index out of range")
-except index:
-    print(colour[2])
+except Exception:
+    print([2])
 finally:
     print("END")
+
+import pricing as p
+
+final_price = p.get_final_price(100)
+print(final_price)
+
+print(p.say_hello())
+
+from pricing import say_hello, get_final_price
+
+print(say_hello())
+final_price = get_final_price(200)
+print(final_price)
+print(get_final_price(500))
+
+import pandas as pd
+
+df = pd.DataFrame(['a', 'b', 'c'])
+print(df)
+
+
+
 
 
 
