@@ -1,0 +1,13 @@
+OOPs with book example
+Uses a base class "Book"
+Created two sub classes : "Novel" and "Comic"
+Use a function 'read_book()'
+Encapsulation - varibles like _title and _author
+Inheritance - "Novel" and "Comic" from book
+Polymorphism - read_book() function work on both novel and Comic
+Abstraction - method names read,get_role
+Output
+Reading novel:'Harry Potter' by J.K.Rowling
+This is a Novel
+Enjoying comic:'Spiderman' by Stan Lee
+This is a Comic
